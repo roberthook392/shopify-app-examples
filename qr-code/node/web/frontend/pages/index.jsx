@@ -31,7 +31,7 @@ export default function HomePage() {
     isRefetching,
   } = useAppQuery({
     url: "/api/qrcodes",
-  });
+  });rdgfdshgdg
 
   /* loadingMarkup uses the loading component from AppBridge and components from Polaris  */
   const loadingMarkup = isLoading ? (
@@ -40,6 +40,7 @@ export default function HomePage() {
       <SkeletonBodyText />
     </Card>
   ) : null;
+  dsagasdgasdg
 
   /* Set the QR codes to use in the list */
   const qrCodesMarkup = QRCodes?.length ? (
